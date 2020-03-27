@@ -1,0 +1,17 @@
+.productList{
+    // width: 100vw;
+    min-height: calc(100vh - 100px);
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 0 50px;
+    &__button{
+        &_add{
+            width: 100%;
+            margin-top: 15px;
+            background-color: rgb(103, 138, 250);
+            padding: 5px;
+            color: #fff;
+        }
+    }
+}
+
